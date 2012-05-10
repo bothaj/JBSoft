@@ -1,0 +1,13 @@
+C:\Dev\Britehouse\trunk\Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\Britehouse\trunk\Web\bin\Debug\Britehouse.Bll.dll
+C:\Dev\Britehouse\trunk\Web\bin\Debug\Britehouse.Dal.dll
+C:\Dev\Britehouse\trunk\Web\bin\Debug\MvcContrib.dll
+C:\Dev\Britehouse\trunk\Web\bin\Debug\Tangent.Logging.dll
+C:\Dev\Britehouse\trunk\Web\bin\Debug\NLog.dll
+C:\Dev\Britehouse\trunk\Web\bin\Debug\Microsoft.Web.Mvc.dll
+C:\Dev\Britehouse\trunk\Web\bin\Debug\Britehouse.Bll.pdb
+C:\Dev\Britehouse\trunk\Web\bin\Debug\Britehouse.Dal.pdb
+C:\Dev\Britehouse\trunk\Web\bin\Debug\Britehouse.Web.dll
+C:\Dev\Britehouse\trunk\Web\bin\Debug\Britehouse.Web.pdb
+C:\Dev\Britehouse\trunk\Web\obj\Debug\Britehouse.Web.dll
+C:\Dev\Britehouse\trunk\Web\obj\Debug\Britehouse.Web.pdb

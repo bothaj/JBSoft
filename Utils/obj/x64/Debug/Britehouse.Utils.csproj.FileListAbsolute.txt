@@ -1,0 +1,5 @@
+C:\Dev\Britehouse\trunk\Utils\bin\x64\Debug\Britehouse.Utils.dll
+C:\Dev\Britehouse\trunk\Utils\bin\x64\Debug\Britehouse.Utils.pdb
+C:\Dev\Britehouse\trunk\Utils\obj\x64\Debug\ResolveAssemblyReference.cache
+C:\Dev\Britehouse\trunk\Utils\obj\x64\Debug\Britehouse.Utils.dll
+C:\Dev\Britehouse\trunk\Utils\obj\x64\Debug\Britehouse.Utils.pdb

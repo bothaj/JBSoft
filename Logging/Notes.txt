@@ -1,0 +1,73 @@
+﻿To implement the logging into an application.
+
+1. Reference Logging Application
+2. Add the NLog Config
+
+<configSections>
+    <section name="nlog" type="NLog.Config.ConfigSectionHandler, NLog" />
+  </configSections>
+
+
+<nlog internalLogFile="nlog.log" internalLogLevel="Trace" internalLogToConsole="true" xmlns="http://www.nlog-project.org/schemas/NLog.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <targets>
+      <target name="FileLimitArchive" xsi:type="File"
+            layout="${date:format=s}|${level}|${message}|${exception:format=Type,Message}"
+            fileName="${basedir}/Logs/ApplicationTrace.log"
+            archiveFileName="${basedir}/Logs/Archives/${instance-tag}_${shortdate}-{#####}.log"
+            archiveAboveSize="10240000"
+            archiveNumbering="Sequence"
+            concurrentWrites="true"
+            maxArchiveFiles="20"
+            keepFileOpen="true"
+            encoding="iso-8859-2"/>
+
+      <target name="FileErrorLimitArchive" xsi:type="File"
+            layout="${date:format=s}|${level}|${message}|${exception:format=Type,Message}"
+            fileName="${basedir}/Logs/ApplicationTraceError.log"
+            archiveFileName="${basedir}/Logs/Archives/${instance-tag}_${shortdate}-{#####}.log"
+            archiveAboveSize="10240000"
+            archiveNumbering="Sequence"
+            concurrentWrites="true"
+            maxArchiveFiles="20"
+            keepFileOpen="true"
+            encoding="iso-8859-2"/>
+
+      <target name="File" xsi:type="File"
+              layout="${date:format=HH\:mm\:ss}|${level}|${logger}|${message}|${exception:format=Type,Message}"
+              archiveEvery="Day"
+              archiveFileName="${basedir}/Logs/Archive/${instance-tag}_${shortdate}-{#####}.log"
+              archiveNumbering="Sequence"
+              concurrentWrites="false"
+              fileName="${basedir}/Logs/${instance-tag}${shortdate}.log"
+              maxArchiveFiles="3" />
+
+      <target name="FileError" xsi:type="File"
+              layout="${date:format=HH\:mm\:ss}|${level}|${logger}|${message}|${exception:format=Type,Message}"
+              archiveEvery="Day"
+              archiveFileName="${basedir}/Logs/Archive/${instance-tag}_${shortdate}-{#####}.log"
+              archiveNumbering="Sequence"
+              concurrentWrites="false"
+              fileName="${basedir}/Logs/${instance-tag}Error_${shortdate}.log"
+              maxArchiveFiles="3" />
+      
+      <target name="ConsoleTrace" xsi:type="ColoredConsole">
+        <layout>${message}</layout>
+      </target>
+      <target name="FileTrace" xsi:type="File" fileName="Logs/applicationtrace.log" archiveFileName="trace.{#####}.log" archiveAboveSize="10240000" archiveNumbering="Sequence" concurrentWrites="true" keepFileOpen="true" maxArchiveFiles="100">
+        <layout>[${level}] [${longdate}] [${message}]</layout>
+      </target>
+      <target name="FileWarning" xsi:type="File" fileName="Logs/exceptionlog.log" archiveFileName="exception.{#####}.log" archiveAboveSize="10240000" archiveNumbering="Sequence" concurrentWrites="true" keepFileOpen="true" maxArchiveFiles="100">
+        <layout>&lt;${level:lowerCase=true}&gt;${newline}   &lt;message&gt;${message}&lt;/message&gt;${newline}   &lt;exceptionmessage&gt;${exception:format=Message}&lt;/exceptionmessage&gt;${newline}   &lt;type&gt;${exception:format=Type}&lt;/type&gt;${newline}   &lt;location&gt;${exception:format=Method}&lt;/location&gt;${newline}   &lt;datetime&gt;${longdate}&lt;/datetime&gt;${newline}   &lt;stacktrace&gt;${exception:format=StackTrace}&lt;/stacktrace&gt;${newline}&lt;/${level:lowerCase=true}&gt;</layout>
+      </target>
+      <target name="DebugTrace" xsi:type="Debugger">
+        <layout>[SPM] [${level}] ${message}</layout>
+      </target>
+    </targets>
+
+    <rules>
+      <!-- Trace Debug Info Warn Error 
+      <logger name="*" minlevel="Trace" writeTo="ConsoleTrace,FileTrace,DebugTrace"></logger>-->
+      <logger name="*" level="Info" writeTo="FileLimitArchive"></logger>
+      <logger name="*" level="Error" writeTo="FileErrorLimitArchive"></logger>
+    </rules>
+  </nlog>

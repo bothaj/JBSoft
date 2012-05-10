@@ -1,0 +1,10 @@
+C:\Dev2\UserManagement\Dal\bin\Debug\Britehouse.Dal.dll
+C:\Dev2\UserManagement\Dal\bin\Debug\Britehouse.Dal.pdb
+C:\Dev2\UserManagement\Dal\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev2\UserManagement\Dal\obj\Debug\Britehouse.Dal.dll
+C:\Dev2\UserManagement\Dal\obj\Debug\Britehouse.Dal.pdb
+C:\Dev2\JBSoft\Dal\bin\Debug\Britehouse.Dal.dll
+C:\Dev2\JBSoft\Dal\bin\Debug\Britehouse.Dal.pdb
+C:\Dev2\JBSoft\Dal\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev2\JBSoft\Dal\obj\Debug\Britehouse.Dal.dll
+C:\Dev2\JBSoft\Dal\obj\Debug\Britehouse.Dal.pdb

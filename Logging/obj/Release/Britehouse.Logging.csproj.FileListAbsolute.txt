@@ -1,0 +1,6 @@
+C:\Dev\Britehouse\trunk\Logging\bin\Release\Tangent.Logging.dll
+C:\Dev\Britehouse\trunk\Logging\bin\Release\Tangent.Logging.pdb
+C:\Dev\Britehouse\trunk\Logging\bin\Release\NLog.dll
+C:\Dev\Britehouse\trunk\Logging\obj\Release\ResolveAssemblyReference.cache
+C:\Dev\Britehouse\trunk\Logging\obj\Release\Tangent.Logging.dll
+C:\Dev\Britehouse\trunk\Logging\obj\Release\Tangent.Logging.pdb

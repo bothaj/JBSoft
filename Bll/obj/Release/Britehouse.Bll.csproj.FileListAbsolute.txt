@@ -1,0 +1,10 @@
+C:\Dev\Britehouse\trunk\Bll\bin\Release\Britehouse.Bll.dll.config
+C:\Dev\Britehouse\trunk\Bll\bin\Release\Britehouse.Bll.dll
+C:\Dev\Britehouse\trunk\Bll\bin\Release\Britehouse.Bll.pdb
+C:\Dev\Britehouse\trunk\Bll\bin\Release\Britehouse.Dal.dll
+C:\Dev\Britehouse\trunk\Bll\bin\Release\NLog.dll
+C:\Dev\Britehouse\trunk\Bll\bin\Release\Tangent.Logging.dll
+C:\Dev\Britehouse\trunk\Bll\bin\Release\Britehouse.Dal.pdb
+C:\Dev\Britehouse\trunk\Bll\obj\Release\ResolveAssemblyReference.cache
+C:\Dev\Britehouse\trunk\Bll\obj\Release\Britehouse.Bll.dll
+C:\Dev\Britehouse\trunk\Bll\obj\Release\Britehouse.Bll.pdb

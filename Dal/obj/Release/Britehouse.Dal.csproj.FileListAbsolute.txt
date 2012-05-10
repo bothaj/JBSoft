@@ -1,0 +1,5 @@
+C:\Dev\Britehouse\trunk\Dal\bin\Release\Britehouse.Dal.dll
+C:\Dev\Britehouse\trunk\Dal\bin\Release\Britehouse.Dal.pdb
+C:\Dev\Britehouse\trunk\Dal\obj\Release\ResolveAssemblyReference.cache
+C:\Dev\Britehouse\trunk\Dal\obj\Release\Britehouse.Dal.dll
+C:\Dev\Britehouse\trunk\Dal\obj\Release\Britehouse.Dal.pdb

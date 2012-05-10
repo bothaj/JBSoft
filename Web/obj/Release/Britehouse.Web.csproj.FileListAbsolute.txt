@@ -1,0 +1,13 @@
+C:\Dev\Britehouse\trunk\Web\bin\Release\Tangent.Web.dll
+C:\Dev\Britehouse\trunk\Web\bin\Release\Tangent.Web.pdb
+C:\Dev\Britehouse\trunk\Web\bin\Release\Britehouse.Bll.dll
+C:\Dev\Britehouse\trunk\Web\bin\Release\Britehouse.Dal.dll
+C:\Dev\Britehouse\trunk\Web\bin\Release\MvcContrib.dll
+C:\Dev\Britehouse\trunk\Web\bin\Release\Tangent.Logging.dll
+C:\Dev\Britehouse\trunk\Web\bin\Release\NLog.dll
+C:\Dev\Britehouse\trunk\Web\bin\Release\Microsoft.Web.Mvc.dll
+C:\Dev\Britehouse\trunk\Web\bin\Release\Britehouse.Bll.pdb
+C:\Dev\Britehouse\trunk\Web\bin\Release\Britehouse.Dal.pdb
+C:\Dev\Britehouse\trunk\Web\obj\Release\ResolveAssemblyReference.cache
+C:\Dev\Britehouse\trunk\Web\obj\Release\Tangent.Web.dll
+C:\Dev\Britehouse\trunk\Web\obj\Release\Tangent.Web.pdb
